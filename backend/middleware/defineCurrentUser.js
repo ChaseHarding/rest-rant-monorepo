@@ -3,6 +3,8 @@ const jwt = require('json-web-token')
 
 const { User } = db;
 
+
+
 async function defineCurrentUser(req, res, next){
     try {
         const [ method, token ] = req.headers.authorization.split(' ')

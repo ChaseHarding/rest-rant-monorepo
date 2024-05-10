@@ -38,7 +38,7 @@ function NewCommentForm({ place, onSubmit }) {
             content: '',
             stars: 3,
             rant: false,
-            authorId: ''
+            authorId: authors[0]?.userId,
         })
     }
 
