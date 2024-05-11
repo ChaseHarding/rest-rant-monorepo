@@ -1,7 +1,5 @@
 'use strict';
 
-const { toDefaultValue } = require("sequelize/types/lib/utils");
-
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     return queryInterface.addColumn('users', 'role', {
